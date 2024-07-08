@@ -1,0 +1,23 @@
+html[data-theme='professional-theme-purple'] {
+  --color-primary: #ffffff;
+  --color-secondary: #ffffff;
+  --color-buttonsone: #ffffff;
+  --color-buttonstwo: #473bf0;
+  --color-typography: #ffffff;
+
+  --font-size-primary: 2.875rem;
+  --font-size-secondary: 0.875rem;
+  --font-size-buttonsone: 1rem;
+  --font-size-buttonstwo: 1rem;
+  --font-size-typography: 1rem;
+
+  --bg-primary: #161c2d;
+  --bg-secondary: #161c2d;
+  --bg-buttonsone: #473bf0;
+  --bg-buttonstwo: transparent;
+
+  --rad-buttonsone: 6px;
+  --rad-buttonstwo: 6px;
+
+  --font-family-primary: 'Inter', sans-serif;
+}

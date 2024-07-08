@@ -1,0 +1,33 @@
+@import 'themes/professional/theme-purple.css' layer(base);
+@import 'themes/personal/theme-purple.css' layer(base);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    --color-primary: #172b4d;
+    --color-secondary: #172b4d;
+    --color-buttonsone: #ffffff;
+    --color-buttonstwo: #000000;
+    --color-typography: #000000;
+
+    --font-size-primary: 2.875rem;
+    --font-size-secondary: 0.875rem;
+    --font-size-buttonsone: 1rem;
+    --font-size-buttonstwo: 1rem;
+    --font-size-typography: 1rem;
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #ffffff;
+
+    --bg-buttonsone: #02534e;
+    --bg-buttonstwo: #b8b8b8;
+
+    --rad-buttonsone: 4px;
+    --rad-buttonstwo: 4px;
+
+    --font-family-primary: 'Red Hat Display', sans-serif;
+  }
+}
