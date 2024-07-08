@@ -4,7 +4,7 @@ import useAboutStore, { AboutFormState } from './about/useAboutStore';
 
 type GlobalState = HeroFormState & AboutFormState;
 
-const useGlobalStore = create<GlobalState>((set, get) => ({
+const useGlobalStore = create<GlobalState>((set) => ({
   ...useHeroStore.getState(),
   ...useAboutStore.getState(),
   setHeroFormData: (data: HeroFormState['heroFormData']) => {

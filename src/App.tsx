@@ -14,8 +14,7 @@ import useGlobalStore from './stores/useGlebalStore';
 function App() {
   const setHeroData = useGlobalStore((store) => store.setHeroFormData);
   const setAboutData = useGlobalStore((store) => store.setAboutFormData);
-  const heroData = useGlobalStore((store) => store.heroFormData);
-  const aboutData = useGlobalStore((store) => store.aboutFormData);
+
   const [landingPage, setLandingPage] = useState(initialLandingPage);
 
   const handleDragEnd = (result: DropResult) => {

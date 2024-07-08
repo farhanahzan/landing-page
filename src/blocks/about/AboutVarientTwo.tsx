@@ -1,11 +1,5 @@
-import { initialAboutSample } from '../../utils/sample';
-
-type Props = {
-  data: typeof initialAboutSample;
-};
-const AboutVarientTwo = (props: Props) => {
-  const { title } = props.data;
-  return <div className="text-primary">{title}</div>;
+const AboutVarientTwo = () => {
+  return <div className="text-primary">AboutVarientTwo</div>;
 };
 
 export default AboutVarientTwo;
